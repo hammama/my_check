@@ -147,7 +147,7 @@
             <img src="assets/plus.png" alt="plus animation">
         </div>
         <div class="cache-panel">
-            <h4>ce que je souhaite cacher 2</h4>
+            <h4>ce que je souhaite cacher 2 koukikouki</h4>
         </div>
 
 
