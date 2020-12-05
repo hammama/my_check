@@ -128,7 +128,7 @@
     <div class="question">
 
         <div class="visible-panel">
-            <h2>ce que je souhaite montrer</h2>
+            <h2>ce que je souhaite montrerwoooooow</h2>
             <img src="assets/plus.png" alt="plus animation">
         </div>
         <div class="cache-panel">
