@@ -3,19 +3,24 @@ const allCross = document.querySelectorAll('.visible-panel img');
 console.log(allCross);
 
 
-/*allCross.forEach(element => {
+allCross.forEach(element => {
 
 	element.addEventListener('click', function(){
-		console.log(this.src);
+		const height = this.parentNode.parentNode.childNodes[3].scrollHeight;
+
+        const currentChoice = this.parentNode.parentNode.childNodes[3];
+
+		//console.log(this.src);
 
 		if(this.src.includes('plus')){
-			this.src = '/assets/moins.png';
+			this.src = '/app/assets/moins.png';
+			gsap.to(currentChoice, {duration: 0.2, height: height + 40, opacity: 1, padding: '20px 15px'})
 		}
-		else if (his.src.includes('moins'))
+		else if (this.src.includes('moins'))
 		{
-		this.src = '/assets/plus.png';	
+		this.src = '/app/assets/plus.png';	
+		 gsap.to(currentChoice, {duration: 0.2, height: 0, opacity: 0, padding: '0px 15px'})
 		}
 
 	})
 })
-*/

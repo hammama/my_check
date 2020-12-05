@@ -122,7 +122,7 @@
 <div class="d-flex justify-content-center w-100 mt-2">
     <?php echo '<button class="w-25 btn btn-success" onclick="send(\'' . $title . '\')">Send</button>' ?>
 </div>
-<script src="/app/js/app.js"></script>
+
 <h1>section1</h1>
 <div class="container-faq">
     <div class="question">
@@ -144,7 +144,7 @@
 
         <div class="visible-panel">
             <h2>ce que je souhaite montrer 2</h2>
-            <img src="assets/plus.png" alt="plus animation">
+            <img src="/app/assets/plus.png" alt="plus animation">
         </div>
         <div class="cache-panel">
             <h4>ce que je souhaite cacher 2 koukikouki</h4>
